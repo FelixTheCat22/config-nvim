@@ -177,6 +177,9 @@ do
   vim.o.softtabstop = 4
   vim.o.shiftwidth = 4
   vim.o.expandtab = false
+
+  -- Run .nvim.lua/.nvimrc/.exrc in local dir when opening a file
+  vim.o.exrc = true
 end
 
 -- ============================================================
